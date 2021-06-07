@@ -1,0 +1,33 @@
+{
+    "currency": [
+        {
+            "disable":"False",
+            "currencyName":"ETC/USDT",
+            "minRange": 60,
+            "maxRange": 80,
+            "binanceEndpoint":"https://api3.binance.com/api/v3/ticker/price"
+        },
+        {
+            "disable":"False",
+            "currencyName":"BTC/USDT",
+            "minRange": 35000,
+            "maxRange": 37000,
+            "binanceEndpoint":"https://api3.binance.com/api/v3/ticker/price"
+        },
+        {
+            "disable":"False",
+            "currencyName":"ETH/USDT",
+            "minRange": 2600,
+            "maxRange": 2850,
+            "binanceEndpoint":"https://api3.binance.com/api/v3/ticker/price"
+        },
+        {
+            "disable":"True",
+            "currencyName":"",
+            "minRange": 0,
+            "maxRange": 0,
+            "binanceEndpoint":""
+        }
+    ]
+
+}
